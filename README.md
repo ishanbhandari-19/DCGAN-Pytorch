@@ -1,4 +1,4 @@
-# DCGAN-with-Pytorch
+# DCGAN-Pytorch
 Implentation of [DCGAN](https://arxiv.org/abs/1511.06434) on Pytorch framework and trained on The Stanford Dogs Dataset.
 ## DCGAN
 <img src='Generated_images/DCGAN.png' />
