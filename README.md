@@ -12,6 +12,10 @@ In reality, it is very hard to train GANs as its training is very unstable and r
 
 3) Using BatchNormalization in both the Generator and the Discriminator during training.
 
+**Tweaks from my side include** 
+- Using Soft labels, i.e. to to put the two target labels Real = 0.9 and Fake = 0.1
+- Training Discriminator in 2 parts, i.e, first on real images and then on fake(generated) images.
+
 ## Dataset
 [The Stanford Dogs Dataset](https://www.kaggle.com/c/generative-dog-images/data)
 
