@@ -1,5 +1,5 @@
 # DCGAN-Pytorch
-Implentation of [DCGAN](https://arxiv.org/abs/1511.06434) on Pytorch framework and trained on The Stanford Dogs Dataset.
+Implementation of [DCGAN](https://arxiv.org/abs/1511.06434) on Pytorch framework and trained on The Stanford Dogs Dataset.
 ## DCGAN
 <img src='Generated_images/DCGAN.png' />
 In reality, it is very hard to train GANs as its training is very unstable and requires a careful selection of hyperparameters.
